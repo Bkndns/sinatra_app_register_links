@@ -1,0 +1,25 @@
+### GET Resp /
+
+GET http://localhost:9292/ HTTP/1.1
+
+###
+
+POST http://localhost:9292/my_post_route HTTP/1.1
+content-type: application/json
+
+{
+    "links": [
+			"stackoverflow",
+			"www.google.com",
+			"https://yandex.ru",
+			"https://ya.ru",
+			"example.ru",
+			"www.di.fm",
+			"www.radio.fm",
+			"https://code.tutsplus.com",
+			"https://www.radiorecord.ru/",
+			"https://stackoverflow2.com/questions/11828270/how-to-exit-the-vim-editor"
+		]
+}
+
+###

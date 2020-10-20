@@ -1,0 +1,9 @@
+app:binstall
+app:bserver_start
+app:bserver_test_req
+app:dinsert_data
+app:get_data
+app:print_get_curl
+app:print_post_curl
+app:run_minitests
+app:run_rspecs
